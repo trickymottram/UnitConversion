@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.5" />
+		<PackageReference Include="TrickyMottram.UnitConversion.Abstractions" Version="1.0.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="README.md" Pack="true" PackagePath="" />
+	</ItemGroup>
+
+	<PropertyGroup>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+
+		<TargetFramework>net8.0</TargetFramework>
+		<Version>1.0.1</Version>
+		<Authors>Tricky Mottram</Authors>
+		<Company>Tricky Mottram</Company>
+		<PackageId>TrickyMottram.UnitConversion.Area</PackageId>
+		<Description>Provides area unit conversions for .NET. Part of the TrickyMottram.UnitConversion suite.</Description>
+		<PackageTags>unit conversion area dotnet</PackageTags>
+		<RepositoryUrl>https://github.com/trickymottram/UnitConversion</RepositoryUrl>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+	</PropertyGroup>
+
+</Project>
